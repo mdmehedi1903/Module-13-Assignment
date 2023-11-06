@@ -8,13 +8,15 @@ import Project from './pages/Project';
 import Service from './pages/Service';
 import Undefine from './pages/Undefine';
 import AppNav from './components/AppNav';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 const App = () => {
   return (
     <div>
         <BrowserRouter>
-        <AppNav/>
+        <Header/>
           <Routes>
               <Route path='/' element={<Home/>}/> 
               <Route path='/about' element={<About/>}/> 
@@ -24,7 +26,9 @@ const App = () => {
               <Route path='/service' element={<Service/>}/> 
               <Route path='*' element={<Undefine/>}/> 
           </Routes>
+          <Footer/>
         </BrowserRouter>
+        
     </div>
   );
 };
