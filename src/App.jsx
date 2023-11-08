@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
-import About from './pages/About';
-import Blog from './pages/Blog';
-import Contact from './pages/Contact';
-import Project from './pages/Project';
+import About from './pages/About/AboutMain';
+import Blog from './pages/Blog/MainBlog';
+import Contact from './pages/Contact/ContactMain';
+import Project from './pages/Projects/MainProject';
 import Service from './pages/Services/MainPage';
 import Undefine from './pages/Undefine';
 import AppNav from './components/AppNav';

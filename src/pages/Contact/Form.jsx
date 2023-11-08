@@ -1,17 +1,9 @@
 import React from 'react';
 
-const Contact = () => {
+const Form = () => {
     return (
-            <div className="container mt-4">
-              <div className="row">
-                <div className="col-md-4 contact-sidebar">
-                  <h3>Contact Information</h3>
-                  <p>Email: example@email.com</p>
-                  <p>Phone: +1234567890</p>
-                </div>
-                <div className="col-md-8 contact-form">
-                  <h3>Contact Us</h3>
-                  <form>
+        <>
+                              <form>
                     <div className="form-group">
                       <label htmlFor="name">Name:</label>
                       <input
@@ -38,11 +30,8 @@ const Contact = () => {
                       Submit
                     </button>
                   </form>
-                </div>
-              </div>
-              <br/><br/>
-            </div>
-          );
+        </>
+    );
 };
 
-export default Contact;
+export default Form;
