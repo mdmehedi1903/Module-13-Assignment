@@ -1,13 +1,20 @@
 import React from 'react';
-import Content from './Content';
+import JSONData from './JSONData';
 
-const Blog = () => {
+const Project = () => {
     return (
-<div>
-        <Content/>
-</div>
+
+        <div class="container py-5">
+        <h2 class="text-center">Our Projects</h2>
+        <div class="row">
+            
+            <JSONData/>
+
+        </div>
+        </div>
 
     );
 };
 
-export default Blog;
+export default Project;
+
